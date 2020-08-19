@@ -13,6 +13,6 @@ Funcionalidade: Unidades
         Então devo ver o <nome> da unidade  
 
     Exemplos: 
-        | filtro                               | nome    | 
-        | "leonardo.padovani@engegraph.com.br" | "123"   |   
-        | "leonardo@engegraph.com.br"          | "123456" |
+        | filtro                      | nome            | 
+        | "Bicicletário e vaga verde" | "Alameda Jaú"   |   
+        | "Vacinação"                 | "Alphaville"    |
