@@ -6,12 +6,12 @@ class UnidadePage
     end
 
     def abrirFiltroFacilidade
-        find("#checkoox-select-facilities svg path").click
+        find(".checkbox-selectcomponentstyle__CheckboxSelectPlaceholderStyled-sc-7ktrvg-2").click
     end
 
     def selecionarFacilidade(filtro)
         abrirFiltroFacilidade
-        check(filtro)
+        find("label[for=_#{filtro}]").click
     end
 
     def visualizarDetalhes
