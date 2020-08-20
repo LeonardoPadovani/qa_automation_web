@@ -13,6 +13,7 @@ Funcionalidade: Unidades
         Então devo ver o <nome> da unidade  
 
     Exemplos: 
-        | filtro                      | nome            | 
-        | "Bicicletário e vaga verde" | "Alameda Jaú"   |   
-        | "Vacinação"                 | "Alphaville"    |
+        | filtro | nome              | 
+        | "4"    | "Alameda Jaú"     | 
+        | "3"    | "Alphaville"      |
+        | "7"    | "Chácara Klabin"  |
